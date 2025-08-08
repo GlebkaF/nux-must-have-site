@@ -23,7 +23,9 @@ export default function Knob({ label, value, color = '#ef4444' }) {
         />
       </div>
       <span className="mt-2 text-xs text-gray-200 text-center">
-        {label}: {value}
+        {label}
+        <br />
+        {value}
       </span>
     </div>
   );
